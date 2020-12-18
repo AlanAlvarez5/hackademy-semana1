@@ -116,9 +116,19 @@ h4 {
 
 .navbar a{
     color: white;
-    text-decoration: none;
-    font-size: 3.5rem;
-    display: block;
+    margin-right: 3rem;
+
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.navbar a:last-of-type {
+    margin-right: 0;
 }
 
 @media (min-width: 768px)
@@ -131,9 +141,7 @@ h4 {
         display: inline-block;
         margin-right: 5rem;
     }
-    .navbar a:last-of-type {
-        margin-right: 0;
-    }
+    
 
 }
 .navbar a:hover {
